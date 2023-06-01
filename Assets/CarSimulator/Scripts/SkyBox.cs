@@ -8,7 +8,7 @@ public class SkyBox : MonoBehaviour
     [SerializeField] private float rotationSpeed;
     private static readonly int RotationId = Shader.PropertyToID("_Rotation");
 
-    void Update () {
+    private void Update () {
         RenderSettings.skybox.SetFloat(RotationId, Time.time * rotationSpeed);
     }
 }
