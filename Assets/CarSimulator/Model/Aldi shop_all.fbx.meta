@@ -3,7 +3,27 @@ guid: 161df76e702fe4fa6af2529f925c3017
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aldi_shop
+    second: {fileID: 2100000, guid: 9e203ce7247ad463ab96aefe66b014ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aldi_logo1
+    second: {fileID: 2100000, guid: c1975a6ddc1d84322ac0df9440240e76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aldi_shop_land
+    second: {fileID: 2100000, guid: 13ed04bcd2b1a465d992d2cd3c7060fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20
+    second: {fileID: 2100000, guid: 839e26eeaadc349ee983e358c410f8d4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

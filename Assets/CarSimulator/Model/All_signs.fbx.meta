@@ -3,7 +3,67 @@ guid: c63834afa373a4e29a17aa1fe9668598
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aldi_logo1
+    second: {fileID: 2100000, guid: 09d94d7b2b0a14cbba07d2c6eb85e81b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 651844afaedab45bba906353a7caaeeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: f3257b0b1351848f58936cf72c5b4932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: direction_board
+    second: {fileID: 2100000, guid: 2727ab5d9e4c844ecab9d95fbe3acc7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gas_station
+    second: {fileID: 2100000, guid: 22f7631b55f5e4a48935df6cab79bb93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f185810f253fb47a7911adcb61ca690e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: no_parking
+    second: {fileID: 2100000, guid: d0ab79245c4624ff3894eef54415755c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pass_by_right
+    second: {fileID: 2100000, guid: 149366f5a7da54808a36629d55a58df6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_of_way1
+    second: {fileID: 2100000, guid: c60e37a86485b42869f6a7231f785b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: turn_right
+    second: {fileID: 2100000, guid: 3adc437f6bcbc496193dbbb0d43ce275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yeld
+    second: {fileID: 2100000, guid: 972f8626949954876a14666e7896dca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow
+    second: {fileID: 2100000, guid: 94cf40d47af6e4eb8ab833bb30862015, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,67 @@ guid: 15dd2a3c5f9c74f638e240ea2a4c263b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Priceboard1
+    second: {fileID: 2100000, guid: 65e350a2b59c3428bb1b0fcb0f1cbb55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: agip_lnd1
+    second: {fileID: 2100000, guid: 4cbcb216f51a14780b7c1b4b92a630e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminium1
+    second: {fileID: 2100000, guid: ec9fdc6e8c4434dad90914910b84ee87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black2
+    second: {fileID: 2100000, guid: 9b5fc33d56d9648e0b584e34bd0736e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_pump1
+    second: {fileID: 2100000, guid: 69f11cbdbaf8640b7a65743923035818, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey2
+    second: {fileID: 2100000, guid: 60659fc3abe464e5593105cbe0f2ac24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert25
+    second: {fileID: 2100000, guid: 626fb67e60bfb465e80ceb217636239a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: petrol_machine1
+    second: {fileID: 2100000, guid: 2086dc469ba33410bb15eb257e6d1698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red1
+    second: {fileID: 2100000, guid: 956a623038c4c4dfca4170eb3435620e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_logo1
+    second: {fileID: 2100000, guid: 5e2a5ceb65f904561a8f512b5fbd8b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white2
+    second: {fileID: 2100000, guid: 29462f81fdc634a109350147c4c8abda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow2
+    second: {fileID: 2100000, guid: e6d7737aa2d5c438abff39c207d481db, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

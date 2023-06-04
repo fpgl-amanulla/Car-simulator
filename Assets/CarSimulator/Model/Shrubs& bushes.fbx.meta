@@ -3,7 +3,32 @@ guid: bfdf9ad1c12f644d49ccb8d6adf67c0b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: 839621dd3bf134937b7f0b34622d7476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shrubs_fence1
+    second: {fileID: 2100000, guid: b5673f5871fea40ee8cae64dab4d353b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shrubs_fence_brown
+    second: {fileID: 2100000, guid: 731245f1b73364a48ac118c271b9d2b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shrubs_fence_dark
+    second: {fileID: 2100000, guid: 8045f1266c7cc41f8a985fd3d11e62c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shrubs_fence_medium
+    second: {fileID: 2100000, guid: 2fae5a3f5f2674e26b6f6ac3d96e4615, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
