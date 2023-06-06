@@ -3,7 +3,42 @@ guid: 516b9539b86234573807bcf909bcdba8
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 4e897c39c9bad4254a0773a56c88689a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: bc14d7b276b834fd8bc808d061c55580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green_light
+    second: {fileID: 2100000, guid: a298f074899254217879105f9f2d2bef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 09b0d15f7ce3c4a7b95454837a97acf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_light1
+    second: {fileID: 2100000, guid: 71c461b03184d4722b184c22264dd591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 966011ee192824d3d9d05877c8b94270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_light
+    second: {fileID: 2100000, guid: 23ee0c0f543b641a0a45c18b94fb8fba, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
