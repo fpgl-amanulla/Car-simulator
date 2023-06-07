@@ -15,6 +15,9 @@ namespace CarSimulator.Scripts
         public Renderer yellowLightRenderer;
         public Renderer greenLightRender;
 
+        [SerializeField] private WaypointCarController waypointCarController_1;
+        [SerializeField] private WaypointCarController waypointCarController_2;
+
         private Light _redLight;
         private Light _yellowLight;
         private Light _greenLight;
@@ -40,19 +43,24 @@ namespace CarSimulator.Scripts
 
         private IEnumerator DoTrafficSequence()
         {
-            yield return new WaitForSeconds(5.0f);
+            yield return new WaitForSeconds(3.0f);
             redLightRenderer.material.DisableKeyword(Emission);
             yellowLightRenderer.material.EnableKeyword(Emission);
 
             _redLight.enabled = false;
             _yellowLight.enabled = true;
 
-            yield return new WaitForSeconds(5.0f);
+            yield return new WaitForSeconds(3.0f);
             yellowLightRenderer.material.DisableKeyword(Emission);
             greenLightRender.material.EnableKeyword(Emission);
 
             _yellowLight.enabled = false;
             _greenLight.enabled = true;
+
+            if (waypointCarController_1 == null || waypointCarController_2 == null) yield break;
+
+            waypointCarController_1.IsMovementEnabled = true;
+            waypointCarController_2.IsMovementEnabled = true;
         }
 
         private void GenerateLight()
